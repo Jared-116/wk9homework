@@ -7,21 +7,21 @@
   "layer": [
     {
       "data": {
-        "url": "Vic_State.json",
+        "url": "https://raw.githubusercontent.com/Jared-116/wk9homework/main/js/Vic_State.json?token=AVZDVJ2JBKVYM7UK6NEJWHLBKAJDS",
         "format": {"type": "topojson", "feature": "Vic_State"}
       },
       "mark": {"type": "geoshape", "fill": "lightgray", "stroke": "white"}
       },
       {
         "data": {
-          "url": "Vic_Graticules.json",
+          "url": "https://raw.githubusercontent.com/Jared-116/wk9homework/main/js/Vic_Graticules.json?token=AVZDVJ2SYUOYSTXZPQATTEDBKAJEU",
           "format": {"type": "topojson", "feature": "Vic_Graticules"}
         },
         "mark": {"type": "geoshape", "fill": "lightgray", "stroke": "darkgrey"}
         },
     {
       "data": {
-        "url": "rec_sites.csv"
+        "url": "https://raw.githubusercontent.com/Jared-116/wk9homework/main/js/rec_sites.csv?token=AVZDVJ6K5IZQTYFKD6Q2QOTBKAJFU"
       },
       "transform" : [
         {"calculate": "{'Y': 'Allowed', '': 'Not Allowed'}[datum.CAMPING]", "as": "CAMPING"}
