@@ -21,7 +21,7 @@
         },
     {
       "data": {
-        "url": "a"
+        "url": "https://raw.githubusercontent.com/Jared-116/wk9homework/main/rec_sites.csv"
       },
       "transform" : [
         {"calculate": "{'Y': 'Allowed', '': 'Not Allowed'}[datum.CAMPING]", "as": "CAMPING"}
